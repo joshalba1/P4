@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Joshua Alba, IS117-005, Spring 2024 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Content Breakdown - Streaming Platforms</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+        section {
+            padding: 50px 0; /* Add spacing for easy reading */
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Navigation Bar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Logo</a>
+            <!-- Responsive Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="platform.html">Platform Comparison</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                            Content Breakdown
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="content-breakdown.html#movies">Movies</a>
+                            <a class="dropdown-item" href="content-breakdown.html#tvshows">TV Shows</a>
+                            <a class="dropdown-item" href="content-breakdown.html#original">Original Content</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ux.html">User Experience</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <!-- Page Content -->
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Content Breakdown</h1>
+        
+        <!-- Movies Section -->
+        <section id="movies">
+            <h2>Movies</h2>
+            <p>
+                Each platform offers a unique selection of movies, from blockbuster hits to indie gems. 
+                Whether you're into action, comedy, or drama, there's something for everyone!
+            </p>
+            <ul>
+                <li><strong>Netflix:</strong> Renowned for its original films and a wide selection of genres.</li>
+                <li><strong>Hulu:</strong> Great for recent movie releases and collaborations with major studios.</li>
+                <li><strong>Amazon Prime Video:</strong> Extensive movie library, including award-winning originals.</li>
+            </ul>
+            <img src="images/movies.jpg" class="img-fluid mt-3" alt="Movies on Streaming Platforms">
+        </section>
+        
+        <!-- TV Shows Section -->
+        <section id="tvshows">
+            <h2>TV Shows</h2>
+            <p>
+                TV enthusiasts can find binge-worthy series on every platform. Whether you love reality shows, thrillers, or comedies, streaming platforms have revolutionized how we consume television.
+            </p>
+            <ul>
+                <li><strong>Netflix:</strong> A leader in creating global sensations like *Stranger Things* and *The Crown*.</li>
+                <li><strong>Hulu:</strong> Specializes in current TV episodes, available shortly after airing.</li>
+                <li><strong>Disney+:</strong> Perfect for fans of classic Disney shows and Marvel series.</li>
+            </ul>
+            <img src="images/shows.webp" class="img-fluid mt-3" alt="TV Shows on Streaming Platforms">
+        </section>
+        
+        <!-- Original Content Section -->
+        <section id="original">
+            <h2>Original Content</h2>
+            <p>
+                Original programming sets platforms apart, showcasing creativity and exclusivity. These shows and movies are often award-winning and highly popular.
+            </p>
+            <ul>
+                <li><strong>Netflix:</strong> Pioneer of originals, with hits like *The Witcher* and *Bridgerton*.</li>
+                <li><strong>Amazon Prime Video:</strong> Known for *The Marvelous Mrs. Maisel* and *The Boys*.</li>
+                <li><strong>Disney+:</strong> Exclusive rights to Marvel, Pixar, and Star Wars originals.</li>
+            </ul>
+            <img src="images/originalcontent.webp" class="img-fluid mt-3" alt="Original Content on Streaming Platforms">
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer page-footer font-small bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <span>&copy; Joshua Alba, 2024 | <a href="#" class="text-light">Terms Of Use</a> | <a href="#" class="text-light">Privacy Policy</a></span>
+        </div>
+    </footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>

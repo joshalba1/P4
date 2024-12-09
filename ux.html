@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- DEVELOPER: Joshua Alba, IS117-005, Spring 2024 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Experience - Streaming Platforms Comparison</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <!-- Navigation Bar -->
+    <div class="row">
+        <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Logo</a>
+            <!-- Responsive Button for the smaller menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="platform.html">Platform Comparison</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                            Content Breakdown
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="content-breakdown.html#movies">Movies</a>
+                            <a class="dropdown-item" href="content-breakdown.html#tvshows">TV Shows</a>
+                            <a class="dropdown-item" href="content-breakdown.html#original">Original Content</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ux.html">User Experience</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- User Experience Section -->
+    <div class="container py-5">
+        <h1 class="display-5 text-center mb-4">User Experience of Streaming Platforms</h1>
+
+        <div class="row">
+            <!-- Netflix Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/netflix-ux.jpg" class="card-img-top" alt="Netflix UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Netflix</h5>
+                        <p class="card-text">
+                            Netflix offers an intuitive interface with personalized recommendations, seamless navigation, and detailed categories for content discovery.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Hulu Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/hulu-ux.png" class="card-img-top" alt="Hulu UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Hulu</h5>
+                        <p class="card-text">
+                            Hulu provides a clean and simple UI, with a focus on current TV shows and ease of access to recently aired episodes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Disney+ Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/disneyplus-ux.webp" class="card-img-top" alt="Disney+ UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Disney+</h5>
+                        <p class="card-text">
+                            Disney+ features a visually appealing interface with easy-to-navigate menus and dedicated sections for popular franchises.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Amazon Prime Video Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/primevideo-ux.webp" class="card-img-top" alt="Amazon Prime Video UX">
+                    <div class="card-body">
+                        <h5 class="card-title">Amazon Prime Video</h5>
+                        <p class="card-text">
+                            Prime Video provides a broad content library, though its interface can feel cluttered, with less intuitive navigation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- HBO Max Card -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card h-100">
+                    <img src="images/max-ux.webp" class="card-img-top" alt="HBO Max UX">
+                    <div class="card-body">
+                        <h5 class="card-title">HBO Max</h5>
+                        <p class="card-text">
+                            HBO Max delivers a modern design with smooth streaming, though some users note occasional search inefficiencies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer page-footer font-small bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <span>&copy; Joshua Alba, 2024 | <a href="#" class="text-light">Terms Of Use</a> | <a href="#" class="text-light">Privacy Policy</a></span>
+        </div>
+    </footer>
+</div>
+
+<!-- Javascript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</script>
+</body>
+</html>
