@@ -1,94 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- DEVELOPER: Joshua Alba, IS117-005, Spring 2024 -->
 <head>
     <meta charset="UTF-8">
-    <title>My First Bootstrap Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Streaming Platforms Comparison</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous">
     <link href="css/main.css" rel="stylesheet">
-
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
-            <nav class="navbar navbar-expand-md
-                    justify-content-start
-                    bg-dark navbar-dark
-                    col-12">
-
-                <!-- Brand -->
-                <a class="navbar-brand" href="#">Logo</a>
-                <!-- Responsive Button for the smaller menu -->
-                <button class="navbar-toggler" type="button"
-                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <!-- Links -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="comparison.html">Platform Comparison</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-
-                        <!-- Dropdown -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbardrop"
-                               data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Education
-                            </a>
-                            <div class="dropdown-menu">
-                                <a class="dropdown-item" href="#">Link 1</a>
-                                <a class="dropdown-item" href="#">Link 2</a>
-                                <a class="dropdown-item" href="#">Link 3</a>
-                                <a class="dropdown-item" href="#">Link 4</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-        <div class="row">
-        <p class="col-1">Col 1</p>
-        <p class="col-1">Col 2</p>
-        <p class="col-1">Col 3</p>
-        <p class="col-1">Col 4</p>
-        <p class="col-1">Col 5</p>
-        <p class="col-1">Col 6</p>
-        <p class="col-1">Col 7</p>
-        <p class="col-1">Col 8</p>
-        <p class="col-1">Col 9</p>
-        <p class="col-1">Col 10</p>
-        <p class="col-1">Col 11</p>
-        <p class="col-1">Col 12</p>
-        </div>
-    <div class="col-sm-4  text-center">
-        <h2>h2 Bootstrap heading (24px)</h2>
-        <h3>h2 Bootstrap heading (18px)</h3>
+                <nav class="navbar navbar-expand-md justify-content-start bg-dark navbar-dark col-12">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">Logo</a>
+            <!-- Responsive Button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <!-- Links -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="platform.html">Platform Comparison</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-bs-toggle="dropdown">
+                            Content Breakdown
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="content-breakdown.html#movies">Movies</a>
+                            <a class="dropdown-item" href="content-breakdown.html#tvshows">TV Shows</a>
+                            <a class="dropdown-item" href="content-breakdown.html#original">Original Content</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ux.html">User Experience</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </div>
-</div>
- <footer class="footer page-footer font-small ">
-     <div class="container">
-        <div class="row">
-            <span class="text-muted">&copy; Art Hendela, 2021 |  Terms Of Use  |  Privacy Statement</span>
+    
+    <!-- Main Banner -->
+    <div class="container py-5 text-center">
+        <h1 class="display-5">Find the Best Streaming Platform for You</h1>
+        <p class="lead">Compare platforms to discover the best service for your favorite content and budget!</p>
+		        <img src="images/pic1.png" class="img-fluid mb-4" alt="Streaming Platforms Logos">
+
+    </div>
+    
+    <!-- About Section -->
+     <div class="container py-5">
+        <div class="card">
+            <div class="card-header">
+                <h2>About Us</h2>
+            </div>
+            <div class="card-body">
+                <p>
+                    We specialize in helping users navigate the ever-growing world of streaming platforms. With detailed comparisons, 
+                    insights on usability, pricing charts, and content breakdowns, we make finding the best streaming service easy!
+                </p>
+                <img src="images/thumpsup.webp" class="img-fluid mt-3" alt="Streaming Overview">
+            </div>
         </div>
-     </div>
-  </footer>
+		
+
+    <footer class="footer page-footer font-small bg-dark text-white py-3 mt-5">
+        <div class="container text-center">
+            <span>&copy; Joshua Alba, 2024 | <a href="#" class="text-light">Terms Of Use</a> | <a href="#" class="text-light">Privacy Policy</a></span>
+        </div>
+    </footer>
 </div>
 
-
-    <!-- Javascript Bundle with Popper -->
+<!-- Javascript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous">
 </script>
-
 </body>
 </html>
